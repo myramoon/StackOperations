@@ -15,4 +15,12 @@ public class MyStack {
     public INode peek() {       // method to return topmost element in stack
         return myLinkedList.head;
     }
+
+    public INode pop() {
+        return myLinkedList.pop();
+    }
+
+    public boolean isEmpty() {
+        return myLinkedList.isEmpty();
+    }
 }

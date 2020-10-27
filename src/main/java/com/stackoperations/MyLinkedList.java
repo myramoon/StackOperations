@@ -44,4 +44,15 @@ public class MyLinkedList {
         this.head = head.getNext();         //set head to point to next node after head
         return tempNode;
     }
+    public INode peek() {
+        return this.head;
+    }
+
+    public boolean isEmpty() {
+        if (this.head == null)
+            return true;
+        else
+            return false;
+
+    }
 }
